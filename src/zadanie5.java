@@ -8,7 +8,7 @@ public class zadanie5 {
 
     }
     public static boolean summa( int a, int b ){
-        return  a + b  >= 10 &&  a + b  <= 20;
+        return a + b >= 10 && a + b <= 20;
     }
 }
 
