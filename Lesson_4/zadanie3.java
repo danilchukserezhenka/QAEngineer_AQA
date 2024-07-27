@@ -1,4 +1,4 @@
-public class printColor {
+public class zadanie3 {
     public static void main(String[] args) {
         int value = 34;
         if ( value <= 0) {

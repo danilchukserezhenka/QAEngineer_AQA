@@ -1,4 +1,4 @@
-public class printThreeWords {
+public class zadanie1 {
     public static void main(String[] args) {
         String s1 = "Orange\n";
         String s2 = "Banana\n";
