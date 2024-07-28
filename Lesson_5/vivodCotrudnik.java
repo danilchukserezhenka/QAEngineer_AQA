@@ -26,6 +26,7 @@ public class vivodCotrudnik {
            // System.out.println((i + 1), cotrudniksArray[i]);
 
         //}
+        System.out.println(cotrudniksArray[2]);
 
     }
 }
