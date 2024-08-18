@@ -17,5 +17,20 @@ public class Lesson {
         System.out.println("Колличество животных: " + Animal.getCountAnimal());
         System.out.println("Колличество котов: " + Cat.getCountCat());
         System.out.println("Колличество собак: " + Dog.getCountDog());
+        //
+        for (int i = 0; i < animals.length; i++) {
+            if (animals[i].run >= 200) {
+                System.out.println("Животное " + animals[i].name + " пробежал(а) дистанцию: 200м");
+            } else {
+                System.out.println("Животное " + animals[i].name + " не пробежал(а) дистанцию: 200м");
+            }
+        }
+        for (int i = 0; i < animals.length; i++) {
+            if (animals[i].swim >= 10) {
+                System.out.println("Животное " + animals[i].name + " проплыло(а) дистанцию: 10м");
+            } else {
+                System.out.println("Животное " + animals[i].name + " не проплыло(а) дистанцию: 10м");
+            }
+        }
     }
 }

@@ -17,12 +17,6 @@ public class Animal {
     public void animalInfo() {
         System.out.println("Животное: " + name + " пробегает: " + run + " проплывает:" + swim);
     }
-    public void run() {
-        System.out.println("Животное пробежало: ");
-    }
-    public  void swim() {
-        System.out.println("Животное проплыло: ");
-    }
     public String toString() {
         return "Животное: " + name + " пробегает: " + run + " проплывает:" + swim;
     }
