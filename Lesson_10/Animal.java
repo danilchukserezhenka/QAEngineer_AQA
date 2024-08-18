@@ -8,10 +8,13 @@ public class Animal {
     public Animal(String name) {
         this.name = name;
     }
-    public void animalinfo() {
+    public void animalInfo() {
         System.out.println("Животное: " + name);
     }
-    public void jump() {
-        System.out.println("Животное прыгнуло");
+    public void run() {
+        System.out.println("Животное пробежало: ");
+    }
+    public  void swim() {
+        System.out.println("Животное проплыло: ");
     }
 }
