@@ -13,6 +13,9 @@ public class Lesson {
         for (int i = 0; i < animals.length; i++) {
             System.out.println(animals[i]);
         }
+        //Колличество всех животных, котов и собак
         System.out.println("Колличество животных: " + Animal.getCountAnimal());
+        System.out.println("Колличество котов: " + Cat.getCountCat());
+        System.out.println("Колличество собак: " + Dog.getCountDog());
     }
 }
