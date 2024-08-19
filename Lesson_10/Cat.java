@@ -6,10 +6,7 @@ public class Cat extends Animal {
         this.color = color;
         this.run = run;
         this.swim = swim;
-        countCat++;
-    }
-    public void catInfo() {
-        System.out.println("Кот имя: " + name + " цвет: " + color);
+        countCat++;                                 //счетчик котов
     }
     public static int getCountCat() {
         return countCat;

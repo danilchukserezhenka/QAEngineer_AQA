@@ -6,10 +6,7 @@ public class Dog extends Animal{
         this.color = color;
         this.run = run;
         this.swim = swim;
-        countDog++;
-    }
-    public void dogInfo() {
-        System.out.println("Пес имя: " + name + " цвет: " + color);
+        countDog++;                         //счетчик собак
     }
     public static int getCountDog() {
         return countDog;
