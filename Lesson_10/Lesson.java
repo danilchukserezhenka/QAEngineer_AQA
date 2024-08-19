@@ -33,5 +33,19 @@ public class Lesson {
                 System.out.println("Животное " + animals[i].name + " не проплыло(а) дистанцию: 10м");
             }
         }
+        Cat[] cats = new Cat[5];
+        cats[0] = new Cat("Катлета", 0, false);
+        cats[1] = new Cat("Фараон", 0, false);
+        cats[2] = new Cat("Барон", 0, false);
+        cats[3] = new Cat("Черт", 0, false);
+        cats[4] = new Cat("Вжух", 0, false);
+        Bowl.addFood(10);
+        for (int i = 0; i < cats.length; i++) {
+            cats[i].eat(3);
+            if (i == 2) {
+                Bowl.addFood(5);
+            }
+        }
+        System.out.println(Arrays.toString(cats));
     }
 }
