@@ -1,3 +1,5 @@
+package Lesson_10_1;
+
 public class Dog extends Animal{
     String color;
     static  int countDog;

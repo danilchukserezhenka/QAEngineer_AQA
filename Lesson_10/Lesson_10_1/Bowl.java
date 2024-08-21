@@ -1,3 +1,5 @@
+package Lesson_10_1;
+
 public class Bowl {
     public static int food;
     //метод проверки возможности покушать с мики

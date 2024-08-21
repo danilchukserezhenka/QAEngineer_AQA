@@ -1,3 +1,5 @@
+package Lesson_10_1;
+
 public class Cat extends Animal {
     String color;
     public static int appetit;
