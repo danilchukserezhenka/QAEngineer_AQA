@@ -19,22 +19,20 @@ public class Lesson {
             System.out.println(s + ": " + Collections.frequency(Arrays.asList(massiw), s));
         }
 
-
-        HashMap<Integer, String> phonebook = new HashMap<Integer, String>();
-        phonebook.put(25365, "Данильчук");
-        phonebook.put(24596, "Ковальчук");
-        phonebook.put(24178, "Иванов");
-        phonebook.put(25368, "Сидоренко");
-        phonebook.put(25415, "Сидоренко");
-        phonebook.put(25623, "Прокапчук");
-        phonebook.put(23654, "Ковальчук");
-        for (Map.Entry<Integer, String> o : phonebook.entrySet()) {
+        //Заполнение телефонного справочника
+        Phonebook.add(12354, "Петров");
+        Phonebook.add(12985, "Петров");
+        Phonebook.add(32698, "Сидоренко");
+        Phonebook.add(78564, "Иванов");
+        Phonebook.add(14598, "Иванов");
+        Phonebook.add(12457, "Ковальчук");
+        Phonebook.add(25652, "Данильчук");
+        //Ручная распечатка телефонного справочника
+        for (Map.Entry<Integer, String> o : Phonebook.phonebook.entrySet()) {
             System.out.println(o.getKey() + ": " + o.getValue());
         }
-        //System.out.println(phonebook.get(25415));
-
-        //Phonebook.findPonePB("Сидоренко");
-
+        Phonebook.findPonePB("Петров");
+        //System.out.println(Phonebook.findPonePB(re));
 
     }
 }
