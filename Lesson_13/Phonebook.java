@@ -27,7 +27,7 @@ public class Phonebook {
         for (Map.Entry entry : phonebook.entrySet()) {
             //equalsIgnoreCase() возвращает значение true, если аргумент не равен null и строки равны
             if (lastName.equalsIgnoreCase((String) entry.getValue())) {
-                result.add((String) entry.getKey());
+                result.add((String) entry.getKey().toString());
             }
         }
         //Если такой фамилии нет, добавит в строку строчку
